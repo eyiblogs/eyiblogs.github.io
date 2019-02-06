@@ -1741,6 +1741,10 @@ pre .javascript .function {
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
+/* 鼠标经过头像旋转360度 */
+  -webkit-transition: -webkit-transform 1.5s ease-out;
+  -moz-transition: -moz-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1822,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2f22ab;
+  background: #d6f216;
 }
 .links-of-blogroll {
   font-size: 13px;
